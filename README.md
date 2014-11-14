@@ -14,8 +14,8 @@ To use this buildpack, you should prepare .buildpacks file that contains this bu
     ...
     
     $ cat .buildpacks
-    https://github.com/bruchu/heroku-buildpack-ffmpeg
-    https://github.com/heroku/heroku-buildpack-play
+    https://github.com/brooks/heroku-buildpack-ffmpeg-x264
+    https://github.com/heroku/heroku-buildpack-ruby
 
     $ heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi
 
@@ -26,6 +26,3 @@ You can verify installing ffmpeg by following command.
 
     $ heroku run "ffmpeg -version"
 
-ffmpeg verification
-
-    $ heroku run 'ffmpegthumbnailer -v'
