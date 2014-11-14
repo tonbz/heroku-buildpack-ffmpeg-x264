@@ -1,9 +1,7 @@
 Heroku buildpack: FFMpeg
 =======================
 
-This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for using [ffmpeg](http://www.ffmpeg.org/) in your project. 
-
-ffmpeg build is a custom vulcan build downloaded from (http://bruchu.github.io/heroku-binaries/ffmpeg.tar.gz) and also contains [ffmpegthumbnailer](https://code.google.com/p/ffmpegthumbnailer/)
+This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for using ffmpeg.tar.gz - x264, mp3lame, libvorbis, libogg
 
 It doesn't do anything else, so to actually compile your app you should use [heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi) to combine it with a real buildpack.
 
